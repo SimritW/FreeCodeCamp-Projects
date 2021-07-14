@@ -1,0 +1,74 @@
+header{
+  font-size: 30px;
+}
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+.code_div{
+	margin-left: 5%;
+	border: 1px solid #D3D3D3;
+	border-radius: 10px;
+	background-color: #D3D3D3;
+	padding: 1%;
+}
+#JS_header{
+	text-align: center;
+	diplay: block;
+}
+#navbar{
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 100%;
+  position: fixed; 
+  overflow: auto; 	
+}
+#navbar a{
+	display: block;
+	padding: 5%;
+}
+#sections{
+	margin-left:15%;
+	padding:1px 16px;
+	height:1000px;
+}
+@media only screen and (max-width: 800px){
+	#navbar{
+		width: 100%;
+		position: relative;
+		display: inline-block;
+	    vertical-align: middle;
+	}
+	#navbar a{
+		padding: 1%;
+		display: block;
+		text-align: center;
+	}
+	#sections{
+		display: block;
+		margin-left:2% !important;
+
+	}
+}
+@media only screen and (max-width: 1100px){
+	#sections{
+		display: block;
+		margin-left:25%;
+
+	}
+}
